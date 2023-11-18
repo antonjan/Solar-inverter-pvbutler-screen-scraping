@@ -6,6 +6,7 @@ You will have to pip install some librayeries<br>
 pip3 install beautifulsoup
 pip3 install selenium
 pip3 install json
+if it complains about sommting look at my requirements.txt file wht I installed you oviosely dont need all of them
 pip3 install ?
 
     [DEFAULT]
