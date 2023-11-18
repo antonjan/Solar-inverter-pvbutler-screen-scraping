@@ -1,5 +1,6 @@
 # Solar-inverter-pvbutler-screen-scraping
-This repository will have the PvButler solar wifi dongle code that will screenscrape the server.pvbutler.com website and get all your solar data and then send it to an mqtt server
+This repository will have the PvButler solar wifi dongle code that will screenscrape the server.pvbutler.com website and get all your solar data and then send it to an mqtt server<br>
+This works on my sacolar inverter but I think it will also work on the Growatt inverters
 ## Usage
 Edit the config.ini with your details for username and password for pvbuttler website and mqtt server details and username and password in the config as in exsample below and save file in same directory as the python file<br>
 You will have to pip install some librayeries<br>
