@@ -3,9 +3,9 @@ This repository will have the PvButler solar wifi dongle code that will screensc
 This works on my sacolar inverter but I think it will also work on the Growatt inverters<br>
 I used the following Cycolar wifi dongle pluged into my Inverter pushing the data to the http://server.pvbutler.com server
 Picture of usb to wifi dongle
-
+![Alt text](sacolar_wifi_dongle.jpg?raw=true "USB wifi dongle")<br>
 Picture of pvbutler website tht this program scrape
-
+![Alt text](pvbuttler_screen.jpg?raw=true "pvbutler web page")<br>
 
 ## Usage
 Edit the config.ini with your details for username and password for pvbuttler website and mqtt server details and username and password in the config as in exsample below and save file in same directory as the python file<br>
