@@ -129,8 +129,8 @@ while True:
 		print("mqtt_topic",mqtt_topic)
 		# Convert the array to a string
 		message = json_object #",".join(json_object)
-		usernamemqtt = mqtt["username"] #"homeassistant"
-		passwordmqtt = mqtt["password"] # "h0m3@ss1$tant"
+		usernamemqtt = mqtt["username"] 
+		passwordmqtt = mqtt["password"] 
 		print("mqtt message",message)
 		
 		# Publish the message to the MQTT broker
