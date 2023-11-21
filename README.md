@@ -10,10 +10,17 @@ Picture of pvbutler website tht this program scrape<br>
 ## Usage
 Edit the config.ini with your details for username and password for pvbuttler website and mqtt server details and username and password in the config as in exsample below and save file in same directory as the python file<br>
 You will have to pip install some librayeries<br>
-pip3 install beautifulsoup
-pip3 install selenium
-pip3 install json
-if it complains about sommting look at my requirements.txt file wht I installed you oviosely dont need all of them
+Download google-crome browser
+
+    sudo apt install libgbm1
+    sudo dpkg -i google-chrome-stable_current_amd64.deb
+    pip3 install beautifulsoup4
+    pip3 install selenium
+    pip3 install json
+    pip3 install paho-mqtt python-etcd
+    pip3 install --upgrade requests
+
+if it complains about sommting look at my requirements.txt file what I installed. You obviously don't need all of them
 pip3 install ?
 
     [DEFAULT]
@@ -36,7 +43,11 @@ pip3 install ?
     json_object = '[["Name", 0],["Data_Sources" , 0],["Solar", 0],["Charge",0],["Consumption_Power_W",0],["Charging",0],["SOC",0],["Solar_Today",0],["Solar_Total",0],["Discharged_Today",0],["Discharge_Total",0],["Charge_Today",0],["Total_Charged",0],["Grid_Today",0],["Grid_Total",0],["15",0],["16",0],["Load_Today",0],["Load_Total",0],["Charge",0],["Solar_Storage",0],["Grid_Storage",0],["Load_Consumption",0],["Load_Solar",0],["Load_Grid_BP",0],["CO2",0],["Tree",0],["Cole_Saved",0],["Consumption_Power_VA",0],["28",0],["29",0]]'
 
 ## Run the code 
-python3 ./scrape_pvbutler_3.py
+    python3 ./scrape_pvbutler_3.py
+    
+if you want it to run in the back ground
+
+    nohup python3 ./scrape_pvbutler_3.py > /dev/null &
 
 ## MQTT json object
 
