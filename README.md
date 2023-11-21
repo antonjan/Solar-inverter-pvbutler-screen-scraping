@@ -72,6 +72,9 @@ python3 ./scrape_pvbutler_3.py
           "28": 0,
           "Time_Date": "2023-11-21T08:54:54"
         }
+## Adding the config to Home Assistant
+![Alt text](home_assit_pvbuttler.jpg?raw=true "Home assitant screen shot")<br>
 
-
+## home assitant config file
+h
     
