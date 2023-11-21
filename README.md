@@ -76,5 +76,5 @@ python3 ./scrape_pvbutler_3.py
 ![Alt text](home_assit_pvbuttler.jpg?raw=true "Home assitant screen shot")<br>
 
 ## home assitant config file
-h
-    
+here is the config file for home assitant. you need to make sure you add the mqtt 
+https://github.com/antonjan/Solar-inverter-pvbutler-screen-scraping/blob/main/configuration.yaml 
