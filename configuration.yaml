@@ -1,0 +1,115 @@
+  - sensor:
+      name: "5kwinverter_Solar"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterSolar
+      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Solar}}"
+      device_class: power
+      unit_of_measurement: "W"
+  - sensor:
+      name: "5kwinverter_charge"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterCharge
+      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Charge}}"
+      device_class: power
+      unit_of_measurement: "W"
+  - sensor:
+      name: "5kwinverter_Solar_today"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterSolarToday      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Solar_Today}}"
+      device_class: energy
+      unit_of_measurement: "KWh"
+  - sensor:
+      name: "5kwinverter_Consuption_Grid"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterConGrid      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Consumption_Power_W}}"
+      device_class: power
+      unit_of_measurement: "W"
+  - sensor:
+      name: "5kwinverter_charging"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterCharging      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Charging}}"
+      device_class: power
+      unit_of_measurement: "W"
+  - sensor:
+      name: "5kwinverter_Bat_SOC"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterBAtSOC      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.SOC}}"
+      device_class: battery
+      unit_of_measurement: "%"
+  - sensor:
+      name: "5kwinverter_Load_Today"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterLoadToday      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Load_Today}}"
+      device_class: energy
+      unit_of_measurement: "KWh"
+  - sensor:
+      name: "5kwinverter_Solar_Storage"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterSolStorage      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Solar_Storage}}"
+      device_class: energy
+      unit_of_measurement: "KWh"
+  - sensor:
+      name: "5kwinverter_Load_Grid_Bypass"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterLoadGridBypass      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Load_Grid_BP}}"
+      device_class: power
+      unit_of_measurement: "W"
+  - sensor:
+      name: "5kwinverter_Discharged_Today"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterDischargedToday      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Discharged_Today}}"
+      device_class: power
+      unit_of_measurement: "KWh"
+  - sensor:
+      name: "5kwinverter_Charge_Today"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterChargeToday      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Charge_Today}}"
+      device_class: power
+      unit_of_measurement: "KWh"
+  - sensor:
+      name: "5kwinverter_Total_Charged"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterTotalCharged      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Total_Charged}}"
+      device_class: energy
+      unit_of_measurement: "KWh"
+  - sensor:
+      name: "5kwinverter_Discharge_Total"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterDischargeTotal      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Discharge_Total}}"
+      device_class: energy
+      unit_of_measurement: "KWh"
+  - sensor:
+      name: "5kwinverter_CO2"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterCO2      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.CO2}}"
+      device_class: carbon_dioxide
+      unit_of_measurement: "ppm"
+  - sensor:
+      name: "5kwinverter_Tree"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterTree      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Tree}}"
+      device_class: carbon_dioxide
+      unit_of_measurement: "Tree"
+  - sensor:
+      name: "5kwinverter_Cole_Saved"
+      state_topic: "home/5kwInverter"
+      unique_id: 5kwInverterColeSaved      # 5kw PVbultler remote access with screen scraping publish to mqtt
+      value_template: "{{value_json.Cole_Saved}}"
+      device_class: volume
+      unit_of_measurement: "Cole"
+      
