@@ -75,6 +75,9 @@ python3 ./scrape_pvbutler_3.py
 ## Adding the config to Home Assistant
 ![Alt text](home_assit_pvbuttler.jpg?raw=true "Home assitant screen shot")<br>
 
+## Here is an exsample of the working home assitant dashboard
+![Alt text](home_assitant_5kw.jpg?raw=true "Home assitant screen shot")<br>
+
 ## home assitant config file
 here is the config file for home assitant. you need to make sure you add the mqtt 
 https://github.com/antonjan/Solar-inverter-pvbutler-screen-scraping/blob/main/configuration.yaml 
